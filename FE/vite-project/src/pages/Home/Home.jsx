@@ -19,7 +19,7 @@ function Home() {
       <Sect2></Sect2>
       <Sect3></Sect3>
       <Sect4></Sect4>
-      <Sect5></Sect5>
+      {/* <Sect5></Sect5> */}
     </>
   );
 }
