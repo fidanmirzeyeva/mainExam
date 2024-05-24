@@ -1,0 +1,97 @@
+.sect4{
+    width: 100%;
+    max-width: 1990px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.search{
+    button{
+        width: 120px;
+        border-style: none;
+        height: 40px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: #F634AB;
+        color: white;
+    }
+    input{
+        width: 200px;
+        height: 40px;
+        border-style: none;
+    }
+}
+.sect4_hero{
+    display: flex;
+    width: 100%;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    text-align: center;
+    
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.sect4_cards{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    
+}
+.sect4_text{
+    padding-top: 50px;
+    text-align: center;
+    
+   
+    h3{
+        font-size: 42px;
+    }
+    p{
+        font-size: 18px;
+        opacity: 0.8;
+    }
+}
+.sect4_card{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+   
+}
+.sect4_card_text{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+   
+    gap: 10px;
+   text-align: start;
+    h3{
+        font-size: 22px;
+    }
+    button{
+        width: 110px;
+        height: 32px;
+        border-style: none;
+        cursor: pointer;
+        color: black;
+        border-radius: 4px ;
+    }
+    button:hover{
+        background-color: #F635A6;
+        color: white;
+    }
+    .btn{
+        width: 250px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+   
+}

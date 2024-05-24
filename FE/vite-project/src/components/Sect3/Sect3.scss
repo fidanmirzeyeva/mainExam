@@ -1,0 +1,55 @@
+.sect3{
+    width: 100%;
+    max-width: 1990px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.sect3_hero{
+    display: flex;
+    width: 100%;
+    background-color: #F634AB;
+    padding-top: 50px;
+    text-align: center;
+    
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.sect3_cards{
+    display: flex;
+    gap: 50px;
+    
+}
+.sect3_text{
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    h3{
+        font-size: 42px;
+    }
+    p{
+        font-size: 18px;
+        opacity: 0.8;
+    }
+}
+.sect3_card{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+   
+}
+.sect3_card_text{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    h3{
+        font-size: 22px;
+    }
+}
