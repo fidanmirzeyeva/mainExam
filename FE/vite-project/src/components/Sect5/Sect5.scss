@@ -1,0 +1,16 @@
+.sect5{
+    width: 100%;
+    max-width: 1990px;
+    margin: auto;
+}
+.sect5_hero{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    img{
+        width: 100px;
+    }
+}
